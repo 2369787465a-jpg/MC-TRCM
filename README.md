@@ -8,6 +8,12 @@ MC-TRCM (Modality-Conditioned Temporal Recursive Context Model) keeps feature so
 
 This repository includes dataset parsers, model implementations, baseline runners, experiment orchestration, and protocol checks. Parsers for StudentLife, Depresjon, and OBF-Psychiatric are also retained as supporting benchmark utilities.
 
+## Model architecture
+
+![MC-TRCM model architecture from Figure 2 of the accompanying paper.](assets/model-architecture.png)
+
+Model architecture reproduced from Figure 2 of the [accompanying paper](main.pdf) (PDF page 6).
+
 ## Repository Layout
 
 - `src/preprocess/`: dataset download, extraction, parsing, split generation, and leakage checks.
