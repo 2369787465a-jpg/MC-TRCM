@@ -1,0 +1,12 @@
+# Core MC-TRCM training, preprocessing, evaluation, and data-free smoke tests.
+# These are direct dependencies, not a frozen paper-experiment environment.
+numpy
+pandas
+scipy
+scikit-learn
+torch
+pyarrow
+
+# Optional: lightgbm, xgboost, interpret for additional reference baselines.
+# Optional: pyreadr for StudentLife and the all-dataset preprocessing runner.
+# See README.md for installation commands.
